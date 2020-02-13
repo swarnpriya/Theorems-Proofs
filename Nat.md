@@ -20,6 +20,18 @@ S x = S x. By computational equality.
 
 ### Thorem 2:
 (x + y) - y = x 
-Lets do inductio 
+Lets do induction on x.
+- Case 1: 
+(O + y) - y = O
+Do inductio on y. 
+  - Case 1.1:
+    (O + O) - O = O. True by computational equality 
+  - Case 1.2:
+    IH: (O + y) - y = O.
+    (O + S y) - S y = O. True by computational equality
+- Case 2:
+IH: (x + y) - y = x
+(S x + y) - y = S x
+   
 
 
